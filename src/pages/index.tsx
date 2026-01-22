@@ -130,29 +130,29 @@ function Index() {
   return (
     <div className="app">
       <Head>
-        <title>Lohit&apos;s Portfolio</title>
-        <meta name="description" content="Lohit Kolluri - DevOps & Cloud Solutions Engineer specializing in cloud-native technologies, containerization, and CI/CD pipelines" />
+        <title>Sullen Skull</title>
+        <meta name="description" content="Peter Giampaoli, a DevOps & Cloud Solutions Engineer specializing in AWS, Azure, Docker, Kubernetes, and full-stack development" />
         <link rel="canonical" href="https://lohit.is-a.dev" />
-        
+
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Lohit Kolluri - DevOps & Cloud Engineer" />
-        <meta property="og:description" content="Portfolio of Lohit Kolluri, a DevOps & Cloud Solutions Engineer specializing in AWS, Azure, Docker, Kubernetes, and full-stack development" />
+        <meta property="og:title" content="Peter Giampaoli - DevOps & Cloud Engineer" />
+        <meta property="og:description" content="Peter Giampaoli, a DevOps & Cloud Solutions Engineer specializing in AWS, Azure, Docker, Kubernetes, and full-stack development" />
         <meta property="og:url" content="https://lohit.is-a.dev" />
         <meta property="og:image" content="https://lohit.is-a.dev/favicon.svg" />
-        
+
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Lohit Kolluri - DevOps & Cloud Engineer" />
-        <meta name="twitter:description" content="Portfolio of Lohit Kolluri, a DevOps & Cloud Solutions Engineer specializing in AWS, Azure, Docker, Kubernetes, and full-stack development" />
+        <meta name="twitter:title" content="Peter Giampaoli - DevOps & Cloud Engineer" />
+        <meta name="twitter:description" content="Portfolio of Peter Giampaoli, a DevOps & Cloud Solutions Engineer specializing in AWS, Azure, Docker, Kubernetes, and full-stack development" />
         <meta name="twitter:image" content="https://lohit.is-a.dev/favicon.svg" />
-        
+
         <link rel="shortcut icon" href="/favicon.svg" />
         <meta
           name="google-site-verification"
           content="DgzOS3oNMuUQ4Y1sU7x860SgyvsYvnd1BCWQLFu0KT8"
         />
-        
+
         {/* Structured Data for Rich Search Results */}
         <script
           type="application/ld+json"
@@ -160,7 +160,7 @@ function Index() {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Person',
-              name: 'Lohit Kolluri',
+              name: 'Peter Giampaoli',
               url: 'https://lohit.is-a.dev',
               jobTitle: 'DevOps & Cloud Solutions Engineer',
               worksFor: {
@@ -168,8 +168,8 @@ function Index() {
                 name: 'Self-employed',
               },
               sameAs: [
-                'https://linkedin.com/in/kollurilohit',
-                'https://github.com/lohitkolluri',
+                'https://linkedin.com/in/petergiampaoli',
+                'https://github.com/petergiampaoli',
               ],
               knowsAbout: [
                 'AWS',
@@ -183,17 +183,17 @@ function Index() {
           }}
         />
       </Head>
-      
+
       {isLoading && <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} />}
-      
-      <motion.div 
+
+      <motion.div
         initial={{ opacity: 0 }}
-        animate={{ 
+        animate={{
           opacity: showContent ? 1 : 0,
           y: showContent ? 0 : 20
         }}
-        transition={{ 
-          duration: 0.8, 
+        transition={{
+          duration: 0.8,
           ease: "easeOut",
           delay: 0.1
         }}
