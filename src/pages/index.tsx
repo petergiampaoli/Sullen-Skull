@@ -130,7 +130,7 @@ function Index() {
   return (
     <div className="app">
       <Head>
-        <title>Sullen Skull</title>
+        <title>Peter Giampaoli</title>
         <meta name="description" content="Peter Giampaoli, a DevOps & Cloud Solutions Engineer specializing in AWS, Azure, Docker, Kubernetes, and full-stack development" />
         <link rel="canonical" href="https://lohit.is-a.dev" />
 
