@@ -13,7 +13,7 @@ function Experience() {
 
   useEffect(() => {
     if (!mounted) return;
-    
+
     // Scroll timeline to selected item on mobile
     if (timelineRef.current && window.innerWidth <= 768) {
       const container = timelineRef.current;
@@ -29,13 +29,13 @@ function Experience() {
 
   const experiences = [
     {
-      name: 'Microsoft Learn Student Ambassadors SRM',
-      role: 'Secretary',
-      url: 'https://mlsasrm.in/',
-      start: 'September 2023',
-      end: 'Present',
+      name: 'Phillips Auctioneers',
+      role: 'Fullstack Developer',
+      url: 'https://www.phillips.com/',
+      start: '2021',
+      end: '2024',
       color: '#bb86fc', // Primary color
-      icon: 'M',
+      icon: 'P',
       shortDescription: [
         'Developed "Atlas Bot," a Discord bot that boosted community engagement and automated tasks for student members.',
         'Optimized the official website, implementing modern web technologies and best practices for improved user experience.',
@@ -44,13 +44,13 @@ function Experience() {
       ],
     },
     {
-      name: 'Apollo Tyres R&D',
-      role: 'Project Trainee',
-      url: 'https://www.apollotyres.com/',
-      start: 'February 2024',
-      end: 'May 2024',
+      name: 'Phillips Auctioneers',
+      role: 'Lead QA',
+      url: 'https://www.phillips.com/',
+      start: '2019',
+      end: '2021',
       color: '#03dac6', // Secondary color
-      icon: 'A',
+      icon: 'P',
       shortDescription: [
         'Architected a robust backend using Django and PostgreSQL to handle over 200 concurrent simulations, resulting in a 40% improvement in system performance and data retrieval efficiency.',
         'Designed an interactive Chart.js dashboard for managers to track job assignments, completion rates, and real-time engineer performance across 300+ projects.',
@@ -59,13 +59,13 @@ function Experience() {
       ],
     },
     {
-      name: 'Social Winter of Code',
-      role: 'Open Source Contributor',
+      name: 'Atlas industries',
+      role: 'Funiture Designer',
       url: 'https://www.socialwinterofcode.com/',
-      start: 'October 2023',
-      end: 'March 2024',
+      start: '2016',
+      end: '2018',
       color: '#cf6679', // Error color
-      icon: 'S',
+      icon: 'A',
       shortDescription: [
         'Recognized as a Top Contributor (among the top 60) for significant open-source contributions, receiving exclusive project merchandise.',
         'Developed and improved features for multiple open-source projects using modern technologies.',
@@ -74,13 +74,13 @@ function Experience() {
       ],
     },
     {
-      name: 'EduSkills Foundation',
-      role: 'AI Intern',
+      name: 'School of Jellyfish',
+      role: 'Assistant Architect',
       url: 'https://www.eduskillsfoundation.org',
-      start: 'September 2023',
-      end: 'November 2023',
+      start: '2015',
+      end: '2016',
       color: '#bb86fc', // Primary color
-      icon: 'E',
+      icon: 'J',
       shortDescription: [
         'Completed comprehensive AWS certification training, mastering deployment of ML models on AWS services (S3, ECS, Lambda).',
         'Developed and deployed scalable cloud solutions, implementing best practices in security and architecture.',
@@ -89,13 +89,13 @@ function Experience() {
       ],
     },
     {
-      name: 'MathWorks',
-      role: 'Virtual Intern',
+      name: 'Index Industries',
+      role: 'Industrial Designer',
       url: 'https://www.mathworks.com',
-      start: 'May 2023',
-      end: 'September 2023',
+      start: '2013',
+      end: '2015',
       color: '#03dac6', // Secondary color
-      icon: 'M',
+      icon: 'I',
       shortDescription: [
         'Completed advanced courses in AI tools and technologies provided by MathWorks.',
         'Developed proficiency in MATLAB for data analysis and model development.',
